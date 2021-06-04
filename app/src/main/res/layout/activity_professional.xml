@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfessionalActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/physicians"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Physicians"
+            android:layout_marginTop="180dp"/>
+
+    </RelativeLayout>
+
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <LinearLayout
+                 android:id="@+id/docWangLL"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_margin="20dp"
+                 >
+
+                 <ImageView
+                     android:id="@+id/docWangIV"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     app:srcCompat="@drawable/female_doctor" />
+
+                 <TextView
+                     android:id="@+id/wangTV"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="10dp"
+                     android:background="@drawable/rectangle_rounded_btn"
+                     android:text="Physician Wang
+                     \n\nExperience:
+                     \nLicensed TCM Physician - Singapopre
+                     \n\nSpecialty:
+                     \nFive Elements Acupuncture
+                     \nGuha Sha
+                     \nEczema
+
+                     \n\nIntroduction:
+                     \n\nPhysician Wang has 18 years of clinical experience.
+                     \nWang studies the five elements acupuncture which is the speciality of the TCM.
+                     \nWang also provides general TCM consultation and treatments with traditional chinese medicine, acupuncture and massage.
+                     \nShe is specialized in the five elements acupuncture." />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/docTangLL"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:orientation="horizontal"
+                 >
+
+                 <ImageView
+                     android:id="@+id/docTangIV"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     app:srcCompat="@drawable/male_doctor" />
+
+                 <TextView
+                     android:id="@+id/tangTV"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="10dp"
+                     android:background="@drawable/rectangle_rounded_btn"
+                     android:text="Physician Tang
+                     \n\nExperience:
+                     \nLicensed TCM Physician - Singapopre
+                     \n\nSpecialty:
+                     \nHeadache
+                     \nGuha Sha
+                     \nFacial Beauty Gua Sha
+                     \nMigraine
+                     \nNeck, Shoulder, head pain
+                     \n\nIntroduction:
+                     \n\nPhysician Tang has 15 years of clinical experience.
+                     \nTang studies the gua sha which is also one of the speciality of the TCM.
+                     \nTang also provides general TCM consultation and treatments with gua sha and massage.
+                     \n He is specialized in the gua sha." />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/chenLL"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:orientation="horizontal"
+                 >
+
+                 <ImageView
+                     android:id="@+id/chenIV"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     app:srcCompat="@drawable/female_doctor" />
+
+                 <TextView
+                     android:id="@+id/chenTV"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="10dp"
+                     android:background="@drawable/rectangle_rounded_btn"
+                     android:text="Physician Chen
+                     \n\nExperience:
+                     \nLicensed TCM Physician - Singapopre
+                     \n\nSpecialty:
+                     \nSprains and Strains
+                     \nHypertension
+                     \nDiabetes
+                     \n\nIntroduction:
+                     \n\nPhysician Chen has 10 years of clinical experience.
+                     \nPhysician Chen is specialized in the Sprains and Strains, Hypertension, Diabetes.
+                     \nShe also is an expertise in weight management and acupuncture." />
+
+
+
+             </LinearLayout>
+
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:orientation="horizontal"
+                 >
+
+                 <ImageView
+                     android:id="@+id/huaIV"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     app:srcCompat="@drawable/female_doctor" />
+
+                 <TextView
+                     android:id="@+id/huaTV"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="10dp"
+                     android:background="@drawable/rectangle_rounded_btn"
+                     android:text="Physician Hua
+                     \n\nExperience:
+                     \nLicensed TCM Physician - Singapopre
+                     \n\nSpecialty:
+                     \nWomen's Health
+                     \nGastrointestinal Disease
+                     \nSkin Disease
+                     \n\nIntroduction:
+                     \n\nPhysician Chen has 8 years of clinical experience.
+                     \nPhysician Chen is specialized in women's health, Gastrointestinal Disease, Skin Disease.
+                     \nShe also is an expertise in weight management and acupuncture." />
+             </LinearLayout>
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>
